@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+/* color
+#3526da
+#6b1776
+ */
+
+ body {
+  margin: 0;
+  padding: 20px;
+  font-family: "open-sans", sans-serif;
+  background-color: #f1f1f1;
+ }
+
+ .container {
+  background-image: linear-gradient(to right, #6b1776, #3526da);
+  width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0 , 0 , 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 0 auto;
+ }
+h1{
+  color: #f1f1f1;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+label{
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 10px;
+
+}
+input {
+  padding: 10px;
+  width: 400px;
+  max-width: 100;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.btn {
+  background-color: #473cc4;
+  border: none;
+  border-radius: 3px;
+  color: #dcdcdc;
+  font-weight: 400;
+  padding: 10px 20px;
+  transform: background-color .3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #3526da;
+  color: #f1f1f1;
+}
+p{
+  color: #f1f1f1;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 30px;  
+}
